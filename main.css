@@ -8,6 +8,14 @@ h3 {
     background-color: #000000;
 }
 
+.horizontal-line {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-color: #69b8d3;
+}
+
 body {
 	font-family: 'Times New Roman', 'Times New Roman', Times, serif;
     color: #f3f3f3;

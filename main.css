@@ -1,22 +1,22 @@
 h3 {
     font-family: 'Times New Roman', 'Times New Roman', Times, serif;
-    color: #f3f3f3;
+    color: #122620;
     border: 2px;
     border-style: solid;
-    border-color: #e27c16;
+    border-color: #D6AD60;
     padding-block: 10px;
-    background-color: #000000;
+    background-color: #F4EBD0;
 }
 
 .horizontal-line {
-    border-color: #69b8d3;
+    border-color: #122620;
 }
 
 body {
 	font-family: 'Times New Roman', 'Times New Roman', Times, serif;
-    color: #f3f3f3;
+    color: #122620;
     padding-block: 10px;
-    background-color: #000000;
+    background-color: #D6AD60;
     margin: 5px;
     font-size: 18px;
 }

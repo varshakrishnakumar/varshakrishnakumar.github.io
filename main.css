@@ -1,73 +1,78 @@
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  #main {
-    transition: margin-left .5s;
-    padding: 16px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
-
 h3 {
     font-family: 'Times New Roman', 'Times New Roman', Times, serif;
     color: #122620;
     border: 2px;
     border-style: solid;
-    border-color: #F4EBD0;
-    padding-block: 10px;
-    background-color: #F4EBD0;
+    border-color: #EEEDE7;
+    padding-block: 2px;
+    background-color: #EEEDE7;
+    margin-left: 150px;
+
 }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #E7D2CC;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #868B8E;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #868B8E;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
 
 .horizontal-line {
-    border-color: #122620;
+    border-color: #868B8E;
 }
 
-.topbar {
-    color: #B68D40;
-    background-color: #B68D40;
-    padding-block: 1px;
+.main {
+    color: #868B8E;
+    background-color: #868B8E;
+    padding: 1px;
+    transition: margin-left .5s;
 }
 
 body {
 	font-family: 'Times New Roman', 'Times New Roman', Times, serif;
-    color: #122620;
+    color: #868B8E;
     padding-block: 10px;
-    background-color: #F4EBD0;
+    background-color: #EEEDE7;
     margin: 5px;
     font-size: 18px;
+    transition: background-color .5s;
+}
+
+h4 {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    color: #122620;
+    margin-left: 150px;
+}
+
+.Text {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #122620;
 }

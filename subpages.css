@@ -1,0 +1,13 @@
+h3 {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    color: #122620;
+    border: 2px;
+    border-style: solid;
+    border-color: #EEEDE7;
+    padding-block: 5px;
+    background-color: #EEEDE7;
+}
+
+.horizontal-line {
+    border-color: #868B8E;
+}

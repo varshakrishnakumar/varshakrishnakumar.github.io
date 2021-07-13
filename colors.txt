@@ -11,3 +11,4 @@ option 2: "VS Code high contrast theme"
 --border: #e27c16;
 --rectangles: ##69b8d3;
 --text: #f3f3f3
+

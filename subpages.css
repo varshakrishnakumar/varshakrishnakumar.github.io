@@ -11,3 +11,15 @@ h3 {
 .horizontal-line {
     border-color: #868B8E;
 }
+
+h4 {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    color: #122620;
+    margin-left: 150px;
+}
+
+.Text {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #122620;
+}
